@@ -97,4 +97,4 @@ int index=0;
 
     (*ptr)== MEMBER;
 
-}
+} 
