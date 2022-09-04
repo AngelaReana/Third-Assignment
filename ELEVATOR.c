@@ -30,7 +30,7 @@
                 printf("\n");
                 preFloor = newFloor;}
 
-        }
+           }
         else
         {
             printf("Wrong Destination & Press Number again \n");
