@@ -14,7 +14,7 @@ int index=0;
 
     char PW3[10]= {'F','A','M','I','L','Y','\0'};
 
-    char totalArray [100];
+    char totalArary[20]= {};
 
    char *names[] = {
 
