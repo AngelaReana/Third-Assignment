@@ -14,7 +14,7 @@ int index=0;
 
     char PW3[10]= {'F','A','M','I','L','Y','\0'};
 
-    char totalArary[100};
+    char totalArray [100]={};
 
    char *names[] = {
 
@@ -28,16 +28,13 @@ int index=0;
    };
 
 
-   for ( i = 0; i < MEMBER; i++) 
-   {
+   for ( i = 0; i < MEMBER; i++) {
       printf(" NAME [%d] = %s\n" ,i, names[i]);
 
    }
 
 
-    for(int i =0 ; PW1[i] != '\0' ; i++)
-    
-    {
+    for(int i =0 ; PW1[i] != '\0' ; i++){
 
        totalArray[index] = PW1[i];
         index = index + 1;
@@ -48,18 +45,17 @@ int index=0;
     printf(" Index number: %d\n",index);
 
 
-    for(int i =0 ; PW2[i] != '\0' ; i++)
-    {
+    for(int i =0 ; PW2[i] != '\0' ; i++){
 
         totalArray [index] = PW2[i];
         index=index+1;
+
+
     }
- 
     printf(" Data: %s\n",totalArray );
     printf(" Last Index number: %d\n",index);
 
-    for(int i =0 ; PW3[i] != '\0' ; i++)
-    {
+    for(int i =0 ; PW3[i] != '\0' ; i++){
 
         totalArray [index] = PW3[i];
         index=index+1;
@@ -71,14 +67,13 @@ int index=0;
 
      for ( x=0 ; x<index ; x++){
 
-        if( totalArray[x] == 'I')
-        {
+        if( totalArray[x] == 'I'){
 
             printf("We found at index %d \n",x);
 
 
        }
-     }
+       }
 
 
 
@@ -92,9 +87,9 @@ int index=0;
     }
 
 
-    void Choice (int* ptr)
-{
+    void Choice (int* ptr){
 
     (*ptr)== MEMBER;
 
-} 
+}
+
